@@ -1,0 +1,210 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Common Box Style */
+.box {
+  font-size: 16px;
+  padding: 30px;
+  border: 1px solid black;
+  background-color: #add8e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 1. Display: Flex */
+.data-label,
+.column-data,
+.Justify-data,
+.align-data,
+.wrap-data,
+.gap-data,
+.grow-data,
+.shrink-data,
+.basis-data,
+.order-data {
+  padding: 20px;
+}
+
+section h2 {
+  border-bottom: 1px solid #d8d8d8;
+  padding: 5px 0;
+}
+
+section p {
+  padding: 20px 0;
+}
+
+.flexbox {
+  display: flex;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* 2. Flex Direction */
+.column-example {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* 3. Justify Content */
+.Justify-Content {
+  display: flex;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  gap: 10px;
+}
+
+.Justify-Content.center {
+  justify-content: center;
+}
+
+.Justify-Content.spaced {
+  justify-content: space-between;
+}
+
+/* 4. Align Items */
+.align-center {
+  display: flex; 
+  align-items: top;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* 5. Flex Wrap */
+.wrap-example {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  gap: 10px;
+}
+
+.wrap-example .box {
+  padding: 22px 79px;
+}
+
+/* 6. Gap */
+.gap-content {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  gap: 20px;
+}
+
+/* 7. Flex Grow */
+.flex-grow {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  gap: 10px;
+}
+
+.box-grow {
+  flex-grow: 1;
+}
+
+.box-grow-2 {
+  flex-grow: 2;
+}
+
+/* 8. Flex Shrink */
+.flex-srink {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  gap: 10px;
+}
+
+.box-shrink {
+  flex-shrink: 1;
+}
+
+/* 9. Flex Basis */
+.flex-basis {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* 10. Order */
+.flex-order {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  gap: 10px;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+/* 11. Align Self */
+.align-self {
+  display: flex;
+  flex-direction: row; 
+  align-items: stretch; 
+  justify-content: flex-start;
+  height: 200px; 
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  gap: 10px;
+}
+
+.align-self .box {
+  padding: 30px;
+  background-color: #add8e6;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Individual alignments */
+.align-self-start {
+  align-self: flex-start;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
